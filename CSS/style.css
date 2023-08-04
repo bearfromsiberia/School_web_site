@@ -1,0 +1,446 @@
+
+ /*index*/
+.nav-item a{
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: color 0.3s linear;
+}
+
+.nav-item a:hover{
+  color: #fce38a;
+}
+header::after{
+  display: block;
+  content: "";
+  padding: 1px;
+  background: #fff;
+}
+
+#hero{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+}
+
+#hero:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#hero .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+#hero h1{
+  color: #fff;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.3;
+  transition: opacity 0.3s linear;
+}
+
+#hero h1:hover{
+  opacity: 1;
+}
+
+#hero .icon-box h3{
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#hero .icon-box h3 a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#hero .icon-box h3 a::after{
+  content: "";
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: #fce38a;
+  top: 100%;
+  margin-top: 4px;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .3s linear ;
+}
+
+#hero .icon-box h3 a:hover:after{
+  opacity: 1;
+}
+
+#hero .icon-box h3 a:hover{
+  color: #fce38a;
+}
+
+.icon-box{
+  padding: 30px 20px;
+  border: 1px solid rgba(255,255,255,0.3);
+  height: 100%;
+  text-align: center;
+  transition: border-color 0.3s linear;
+}
+
+.icon-box:hover{
+  border-color: #fce38a;
+}
+
+footer{
+  background: #fff;
+}
+
+footer p{
+  margin-bottom: 0;
+}
+
+ /*teachers*/
+
+ #teachers{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+}
+
+#teachers:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#teachers .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+ #teachers h1{
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+ }
+
+ #teachers .btn{
+    border-radius: 100px;
+    padding: 8px 30px;
+    background-color: #fff;
+    border-color: #302e2e;
+    color: #302e2e;
+    transition: background-color 0.3s linear;
+ }
+
+ #teachers .btn:hover{
+  background-color: #302e2e;
+  border-color: #302e2e;
+  color: #fff;
+}
+
+#teachers form{
+  margin-right: 5px;
+}
+
+#teachers .card-img-top{
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+#teachers .card-body{
+  background: linear-gradient(#96f2ec, #fff);
+  border-bottom-left-radius: 100px ;
+  border-bottom-right-radius: 100px;
+}
+
+#teachers .card{
+  border: none;
+  background: none;
+}
+
+#teachers .card-img-top{
+  max-height: 300px;
+}
+
+#teachers h1{
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64px;
+  font-family: "Poppins", sans-serif;
+}
+
+/*person*/
+
+#person{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+}
+
+#person:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#person .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+ #person h1{
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+ }
+
+ #person img{
+  border-radius: 20px;
+ }
+
+ #person .info{
+  color: #000;
+  font-size: 18px;
+  padding-bottom: 17px;
+  margin-left: 10px;
+  padding-top: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+#person .bio{
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+#person .bio_text{
+  color: #000;
+  font-size: 18px;
+}
+
+#person .bio_bg{
+  background: #fff;
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 10px; 
+}
+
+
+/*photos*/
+#photos{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+ }
+ 
+ #photos:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#photos .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+ #photos h1{
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+ }
+
+ #photos .carousel{
+  width: 700px;
+  height: auto;
+ }
+
+/*news*/
+
+#news{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+}
+
+#news:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#news .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+#news h1{
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#news h4{
+  color: #fff;
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#news p{
+  color: #fff;
+}
+
+#news .news_text::after{
+  display: block;
+  content: "";
+  background: #fff;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+/*trophy*/
+
+#trophy{
+  width: 100%;
+  height: 97vh;
+  background: url(https://avatars.mds.yandex.net/get-altay/4080517/2a000001771187588573b2b0209be377b6e8/XXL);
+  background-size: cover;
+  position: relative;
+}
+
+#trophy:before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+}
+
+#trophy .container{
+  position: relative;
+  padding-top: 75px;
+}
+
+#trophy h1{
+  color: #fff;
+}
+
+#trophy h4{
+  color: #fff;
+  font-style: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+#trophy p{
+  color: #fff;
+  font-style: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+#trophy video{
+  height: 350px;
+}
+
+#trophy img{
+  height: 350px;
+}
+
+footer{
+  width: 100%;
+  height: 3hv;
+}
+
+@media screen and (max-width: 1230px) {
+  #trophy video{
+    height: 250px;
+  }
+  
+  #trophy img{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #trophy video{
+    height: 150px;
+  }
+  
+  #trophy p{
+    font-size: 12px;
+  }
+
+  #trophy img{
+    height: 150px;
+  }
+
+  #trophy h4{
+    font-size: 15px;
+  }
+  #person .bio_text{
+    font-size: 12px;
+  }
+
+  #person .info{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  #news h4{
+    font-size: 17px;
+  }
+  
+  #news p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #news h4{
+    font-size: 20px;
+  }
+  
+  #news p{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #news h4{
+    font-size: 15px;
+  }
+  
+  #news p{
+    font-size: 12px;
+  }
+}
