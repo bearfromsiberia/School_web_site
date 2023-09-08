@@ -1,5 +1,17 @@
 
  /*index*/
+
+@keyframes h1 {
+  0%{
+    opacity: 0%;
+    margin-bottom: -5%;
+  }
+  50%{
+    letter-spacing: 10px;
+  }
+  
+}
+
 .nav-item a{
   color: #fff;
   font-size: 12px;
@@ -46,6 +58,7 @@ header::after{
   line-height: 64px;
   font-family: "Poppins", sans-serif;
   opacity: 0.3;
+  animation: h1 3s;
   transition: opacity 0.3s linear;
 }
 
@@ -136,6 +149,7 @@ footer p{
   color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
+  animation: h1 3s;
  }
 
  #teachers .btn{
@@ -162,8 +176,18 @@ footer p{
   border-top-right-radius: 100px;
 }
 
+@keyframes card {
+  0%   {background-color: #ffe4c4;}
+  25%  {background-color: #ffefd5;}
+  50%  {background-color: #ffdab9;}
+  100% {background-color: #ffe4c4;}
+}
+
 #teachers .card-body{
-  background: linear-gradient(#96f2ec, #fff);
+  background-color: #ffe4c4;
+  animation-name: card;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
   border-bottom-left-radius: 100px ;
   border-bottom-right-radius: 100px;
 }
@@ -212,6 +236,7 @@ footer p{
   color: #fff;
   position: relative;
   font-family: "Poppins", sans-serif;
+  animation: h1 3s;
  }
 
  #person img{
@@ -271,6 +296,7 @@ footer p{
  #photos h1{
   color: #fff;
   font-family: "Poppins", sans-serif;
+  animation: h1 3s;
  }
 
  #photos .carousel{
@@ -305,6 +331,7 @@ footer p{
 #news h1{
   color: #fff;
   font-family: "Poppins", sans-serif;
+  animation: h1 3s;
 }
 
 #news h4{
@@ -352,6 +379,7 @@ footer p{
 }
 
 #trophy h1{
+  animation: h1 3s;
   color: #fff;
 }
 
